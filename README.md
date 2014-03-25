@@ -1,4 +1,3 @@
-Real-Time-Linux
-===============
+#Real Time Linux
 
 Real time Linux programming repository
