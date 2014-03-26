@@ -1,6 +1,4 @@
-#Real Time Linux
-
-Real time Linux programming repository
+#Real Time Linux programming
 
 In computer science, real-time computing (RTC), or reactive computing, is the study of hardware and software systems that are subject to a "real-time constraint", for example operational deadlines from event to system response. Real-time programs must guarantee response within strict time constraints, often referred to as "deadlines".
 
