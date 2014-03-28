@@ -26,3 +26,5 @@ These default key combinations with modern operating systems can be changed with
 
 ### Handling signals
 Signal handlers can be installed with the signal() system call. If a signal handler is not installed for a particular signal, the default handler is used. Otherwise the signal is intercepted and the signal handler is invoked. The process can also specify two default behaviors, without creating a handler: ignore the signal (SIGIGN) and use the default signal handler (SIGDFL). There are two signals which cannot be intercepted and handled: SIGKILL and SIGSTOP
+
+<em>Source: Wikipedia</em>
