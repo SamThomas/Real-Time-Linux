@@ -29,7 +29,7 @@ These default key combinations with modern operating systems can be changed with
 ### Handling signals
 Signal handlers can be installed with the signal() system call. If a signal handler is not installed for a particular signal, the default handler is used. Otherwise the signal is intercepted and the signal handler is invoked. The process can also specify two default behaviors, without creating a handler: ignore the signal (SIGIGN) and use the default signal handler (SIGDFL). There are two signals which cannot be intercepted and handled: SIGKILL and SIGSTOP
 
-### Semaphore variables
+## Semaphore variables
 In computer science, particularly in operating systems, a semaphore is a variable or abstract data type that is used for controlling access, by multiple processes, to a common resource in a parallel programming or a multi user environment.
 
 A useful way to think of a semaphore is as a record of how many units of a particular resource are available, coupled with operations to safely (i.e., without race conditions) adjust that record as units are required or become free, and, if necessary, wait until a unit of the resource becomes available. 
